@@ -45,24 +45,14 @@ Ans-> Measures of central tendency and variability are important statistical too
 
 Measures of Central Tendency:
 Measures of central tendency are used to describe the central or typical value in a dataset. There are three common measures of central tendency:
-
 Mean: The mean is the average value of a dataset. It is calculated by adding up all the values in the dataset and dividing by the number of values. The mean is a useful measure of central tendency because it is sensitive to all the values in the dataset. However, it can be affected by outliers, or extreme values, in the dataset.
-
 Median: The median is the middle value in a dataset when the values are arranged in order. It is a useful measure of central tendency because it is not affected by outliers. For example, if there is an outlier in a dataset, the median will remain the same. However, it may not be as sensitive to the overall distribution of values in the dataset as the mean.
-
 Mode: The mode is the value that appears most frequently in a dataset. It is a useful measure of central tendency for categorical data or discrete numerical data, such as the number of people in a household. However, it may not be a good measure for continuous data.
 
 Measures of Variability:
 Measures of variability are used to describe the spread or dispersion of the data around the central tendency. There are three common measures of variability:
-
 Range: The range is the difference between the largest and smallest values in a dataset. It is a simple measure of variability but it can be affected by outliers.
-
 Variance: The variance measures the average distance of each data point from the mean. It is calculated by squaring the difference between each data point and the mean, summing the squared differences, and then dividing by the number of data points. The variance is a useful measure of variability because it takes into account all the data points, but it can be difficult to interpret because it is in squared units.
-
 Standard Deviation: The standard deviation is the square root of the variance. It is a useful measure of variability because it is in the same units as the original data and it is easier to interpret than the variance. The standard deviation indicates how much the data points deviate from the mean. A smaller standard deviation indicates that the data points are closer to the mean, while a larger standard deviation indicates that the data points are more spread out.
 
 In summary, measures of central tendency and variability are important tools for describing datasets. The choice of which measure to use depends on the type of data and the research question being asked.
-
-
-Note: Create your assignment in Jupyter notebook and upload it in GitHub & share that github
-repository link through your dashboard. Make sure the repository is public.
