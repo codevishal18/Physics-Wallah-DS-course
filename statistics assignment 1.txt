@@ -1,0 +1,68 @@
+Q1. What is Statistics?
+Ans-> It is collecting, organizing and analyzing data.
+
+Q2. Define the different types of statistics and give an example of when each type might be used.
+Ans-> Descriptive Statistics - organizing and summarising data using measures of central tendency, dispersion and different types of   distribution.
+Inferential Statistics - using data we have measured to form conclusions from a sample of data for a population
+
+Q3. What are the different types of data and how do they differ from each other? Provide an example of
+each type of data.
+Quantitative Data - numerical data which can be further divided into discrete and continious data.
+Qualitative Data - categorical data which can be further divided into nominal and ordinal data.
+
+Q4. Categorise the following datasets with respect to quantitative and qualitative data types:
+(i) Grading in exam: A+, A, B+, B, C+, C, D, E
+(ii) Colour of mangoes: yellow, green, orange, red
+(iii) Height data of a class: [178.9, 179, 179.5, 176, 177.2, 178.3, 175.8,...]
+(iv) Number of mangoes exported by a farm: [500, 600, 478, 672, ...]
+
+Ans - i)qualitative 
+ii)qualitative
+iii)quantitative
+iv)quantitative
+
+Q5. Explain the concept of levels of measurement and give an example of a variable for each level.
+Ans-> i) Nominal scale data - categorical with no rank among them
+ii) Ordinal scale data - categorical with ranking among them
+iii)Interval scale data - no zero point and difference and also ratio doesnt have a significance
+iv)Ratio scale data - has a zero point and difference can be measured
+
+Q6. Why is it important to understand the level of measurement when analyzing data? Provide an example to illustrate your answer.
+Ans-> to check whether data has a zero point,diference can be measured or not and ratio has any significance or not.
+
+Q7. How nominal data type is different from ordinal data type.
+Ans-> difference based on ranking among data.
+
+Q8. Which type of plot can be used to display data in terms of range?
+Ans-> A box plot, also known as a box-and-whisker plot, is a type of plot commonly used to display data in terms of range. It shows the distribution of a dataset by visually displaying the quartiles, or dividing the data into quarters. The box represents the interquartile range (IQR), or the middle 50% of the data, while the whiskers extend to show the minimum and maximum values, excluding any outliers. The median, or the middle value of the dataset, is typically shown as a line within the box. Box plots are useful for comparing distributions between different groups or datasets and can highlight any significant differences or outliers.
+
+Q9. Describe the difference between descriptive and inferential statistics. Give an example of each type of statistics and explain how they are used.
+Ans-> Descriptive Statistics - organizing and summarising data using measures of central tendency, dispersion and different types of   distribution. Eg-average height of a class
+Inferential Statistics - using data we have measured to form conclusions from a sample of data for a population. Eg-checking whether average height of college is similar to the average height predicted by average height of class
+
+Q10. What are some common measures of central tendency and variability used in statistics? Explain how each measure can be used to describe a dataset.
+Ans-> Measures of central tendency and variability are important statistical tools that are used to describe the characteristics of a dataset.
+
+Measures of Central Tendency:
+Measures of central tendency are used to describe the central or typical value in a dataset. There are three common measures of central tendency:
+
+Mean: The mean is the average value of a dataset. It is calculated by adding up all the values in the dataset and dividing by the number of values. The mean is a useful measure of central tendency because it is sensitive to all the values in the dataset. However, it can be affected by outliers, or extreme values, in the dataset.
+
+Median: The median is the middle value in a dataset when the values are arranged in order. It is a useful measure of central tendency because it is not affected by outliers. For example, if there is an outlier in a dataset, the median will remain the same. However, it may not be as sensitive to the overall distribution of values in the dataset as the mean.
+
+Mode: The mode is the value that appears most frequently in a dataset. It is a useful measure of central tendency for categorical data or discrete numerical data, such as the number of people in a household. However, it may not be a good measure for continuous data.
+
+Measures of Variability:
+Measures of variability are used to describe the spread or dispersion of the data around the central tendency. There are three common measures of variability:
+
+Range: The range is the difference between the largest and smallest values in a dataset. It is a simple measure of variability but it can be affected by outliers.
+
+Variance: The variance measures the average distance of each data point from the mean. It is calculated by squaring the difference between each data point and the mean, summing the squared differences, and then dividing by the number of data points. The variance is a useful measure of variability because it takes into account all the data points, but it can be difficult to interpret because it is in squared units.
+
+Standard Deviation: The standard deviation is the square root of the variance. It is a useful measure of variability because it is in the same units as the original data and it is easier to interpret than the variance. The standard deviation indicates how much the data points deviate from the mean. A smaller standard deviation indicates that the data points are closer to the mean, while a larger standard deviation indicates that the data points are more spread out.
+
+In summary, measures of central tendency and variability are important tools for describing datasets. The choice of which measure to use depends on the type of data and the research question being asked.
+
+
+Note: Create your assignment in Jupyter notebook and upload it in GitHub & share that github
+repository link through your dashboard. Make sure the repository is public.
