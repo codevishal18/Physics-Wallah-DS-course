@@ -1,1 +1,1 @@
-# Statistics
+# Physics Wallah Data Science course
