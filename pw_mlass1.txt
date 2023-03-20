@@ -1,0 +1,106 @@
+Q1. Explain the following with an example:
+Machine Learning (ML), Artificial Intelligence (AI), and Deep Learning are related but distinct fields of study.
+
+Machine Learning (ML): It is a branch of AI that uses algorithms to analyze data, learn from it, and then make predictions or decisions based on that learning.
+Example: An ML model could be trained to recognize handwritten digits. The model is fed with a large dataset of handwritten digits along with their corresponding labels, and it learns to recognize the patterns in the data that differentiate one digit from another. Once trained, the model can accurately predict the digit represented by a new handwritten image.
+
+Artificial Intelligence (AI): It is a broad field that encompasses any computer program or system that can perform tasks that typically require human intelligence, such as recognizing speech, making decisions, or understanding natural language.
+Example: A virtual assistant like Siri or Alexa is an example of AI. These systems use a combination of natural language processing, machine learning, and other techniques to understand and respond to users' requests, providing information, or completing tasks like setting reminders or making appointments.
+
+Deep Learning: It is a subset of ML that uses artificial neural networks to learn from data. These networks are inspired by the structure of the human brain and are capable of learning and performing complex tasks, such as image or speech recognition, with incredible accuracy.
+Example: An application of deep learning is image recognition. A deep learning model can be trained to classify images into different categories such as animals, cars, or buildings. The model is trained with a large dataset of labeled images, and it learns to recognize patterns in the images that differentiate one category from another. Once trained, the model can accurately classify new images based on the learned patterns.
+
+Q2. What is supervised learning? List some examples of supervised learning.
+Supervised learning is a type of machine learning where the algorithm learns to map input data to output data based on labeled examples provided in a training dataset. In supervised learning, the training data includes both input data and the corresponding correct output or target value. The algorithm learns to make predictions or classify new data based on the patterns it learns from the labeled examples.
+
+Some examples of supervised learning include:
+Image Classification: Given a set of labeled images, the algorithm learns to classify new images into different categories, such as animals, cars, or buildings.
+Spam Detection: Given a set of emails, the algorithm learns to classify new emails as either spam or not spam based on the content and other features.
+Regression Analysis: Given a set of labeled data points, the algorithm learns to predict a continuous target value, such as the price of a house based on its features.
+Language Translation: Given a set of parallel texts in different languages, the algorithm learns to translate new texts from one language to another.
+
+Q3. What is unsupervised learning? List some examples of unsupervised learning.
+Unsupervised learning is a type of machine learning where the algorithm learns to identify patterns or structure in data without any labeled examples or target values. In unsupervised learning, the algorithm is given only input data and it learns to find meaningful patterns or relationships on its own.
+
+Some examples of unsupervised learning include:
+Clustering: Given a set of unlabeled data, the algorithm learns to group similar data points into clusters based on their features. For example, a clustering algorithm could be used to group customers based on their purchasing behavior.
+Anomaly detection: Given a set of data, the algorithm learns to identify data points that are significantly different from the rest of the data. For example, an anomaly detection algorithm could be used to identify fraudulent transactions in financial data.
+Dimensionality reduction: Given a set of high-dimensional data, the algorithm learns to represent the data in a lower-dimensional space while preserving the important information. For example, a dimensionality reduction algorithm could be used to visualize high-dimensional data in 2D or 3D space.
+Association rule learning: Given a set of transaction data, the algorithm learns to identify frequent itemsets and association rules between items. For example, an association rule learning algorithm could be used to identify items that are often purchased together in a supermarket.
+Generative models: Given a set of data, the algorithm learns to generate new data that is similar to the original data. For example, a generative model could be used to generate new images that resemble a set of training images.
+In each of these examples, the algorithm learns to identify patterns or structure in the data without any labeled examples or target values. Unsupervised learning is useful when there is no prior knowledge or labeling available and the algorithm needs to discover patterns and relationships on its own.
+
+Q4. What is the difference between AI, ML, DL, and DS?
+AI, ML, DL, and DS are related but distinct fields of study. Here's a brief explanation of each and the differences between them:
+
+Artificial Intelligence (AI): It is a broad field that encompasses any computer program or system that can perform tasks that typically require human intelligence, such as recognizing speech, making decisions, or understanding natural language. AI is concerned with creating intelligent machines that can mimic or exceed human intelligence. AI can be further divided into narrow or weak AI, which is designed to perform specific tasks, and general or strong AI, which can perform any intellectual task that a human can.
+
+Machine Learning (ML): It is a subset of AI that uses algorithms to analyze data, learn from it, and then make predictions or decisions based on that learning. ML is concerned with building systems that can learn and improve from experience without being explicitly programmed. ML can be further divided into supervised learning, unsupervised learning, and reinforcement learning.
+
+Deep Learning (DL): It is a subset of ML that uses artificial neural networks to learn from data. DL is concerned with building systems that can learn and perform complex tasks, such as image or speech recognition, with incredible accuracy. DL is especially useful for working with large datasets where the input data has a complex and hierarchical structure.
+
+Data Science (DS): It is a field that involves the extraction, processing, analysis, and interpretation of data. DS is concerned with using data to gain insights and make informed decisions. DS encompasses a range of techniques and tools, including statistics, machine learning, data visualization, and data mining.
+
+In summary, AI is the broadest field that encompasses any computer program or system that can perform tasks that typically require human intelligence. ML is a subset of AI that uses algorithms to learn from data, while DL is a subset of ML that uses artificial neural networks. DS is a field that involves the extraction, processing, analysis, and interpretation of data using a range of techniques and tools.
+
+Q5. What are the main differences between supervised, unsupervised, and semi-supervised learning?
+The main differences between supervised, unsupervised, and semi-supervised learning are:
+Supervised Learning: It is a type of machine learning where the algorithm learns to map input data to output data based on labeled examples provided in a training dataset. In supervised learning, the training data includes both input data and the corresponding correct output or target value. The algorithm learns to make predictions or classify new data based on the patterns it learns from the labeled examples.
+Unsupervised Learning: It is a type of machine learning where the algorithm learns to identify patterns or structure in data without any labeled examples or target values. In unsupervised learning, the algorithm is given only input data and it learns to find meaningful patterns or relationships on its own.
+Semi-Supervised Learning: It is a type of machine learning where the algorithm learns from both labeled and unlabeled data. In semi-supervised learning, the algorithm uses the labeled data to learn the mapping between input and output, and then uses the unlabeled data to improve the accuracy of the model by finding patterns or relationships in the data that were not explicitly labeled.
+The key differences between these types of learning can be summarized as follows:
+Supervised learning requires labeled data, while unsupervised learning does not.
+Supervised learning is used when the output is known and the goal is to learn the mapping between input and output, while unsupervised learning is used when the goal is to find patterns or structure in the data.
+Semi-supervised learning uses both labeled and unlabeled data to improve the accuracy of the model.
+In summary, the main differences between supervised, unsupervised, and semi-supervised learning are related to the availability of labeled data and the goal of the learning task.
+
+Q6. What is the train, test, and validation split? Explain the importance of each term.
+In machine learning, the train-test-validation split is a common technique used to evaluate the performance of a model.
+The train-test-validation split involves splitting the dataset into three parts:
+Training Set: It is a subset of the dataset that is used to train the model. The model is trained on the input features and their corresponding output labels. The training set typically contains the majority of the data (e.g., 70-80%) and is used to optimize the model's parameters.
+Validation Set: It is a subset of the dataset that is used to tune the model's hyperparameters. Hyperparameters are the settings that are not learned during training, but instead set by the user before training. The validation set is used to assess the performance of the model during training and to avoid overfitting (i.e., the model memorizing the training data and not generalizing to new data). The validation set is typically around 10-20% of the dataset.
+Test Set: It is a subset of the dataset that is used to evaluate the final performance of the model after training and hyperparameter tuning are complete. The test set is used to provide an unbiased estimate of the model's performance on new, unseen data. The test set is typically around 10-20% of the dataset and should not be used for any training or hyperparameter tuning.
+The importance of each term in the train-test-validation split is as follows:
+Training Set: The training set is used to optimize the model's parameters. It is important because it is used to make the model more accurate and to improve its performance on the validation and test sets.
+Validation Set: The validation set is used to tune the model's hyperparameters. It is important because it helps to prevent overfitting, which can occur if the model is too complex or if the training set is too small.
+Test Set: The test set is used to evaluate the final performance of the model. It is important because it provides an unbiased estimate of the model's performance on new, unseen data.
+Overall, the train-test-validation split is an important technique in machine learning because it helps to evaluate the performance of the model and to ensure that it is generalizing well to new, unseen data.
+
+Q7. How can unsupervised learning be used in anomaly detection?
+Unsupervised learning can be a powerful tool for anomaly detection since it allows for the identification of patterns and outliers in data without requiring labeled examples of anomalies. Anomaly detection using unsupervised learning typically involves the following steps:
+Data preprocessing: The data is first preprocessed to remove any irrelevant or redundant features, scale the features, and normalize the data.
+Clustering: The data is clustered into groups or clusters based on similarities or patterns in the data. This can be done using algorithms such as k-means, DBSCAN, or hierarchical clustering.
+Identification of anomalies: Once the data is clustered, anomalies can be identified as data points that do not belong to any of the clusters or are significantly different from the rest of the data in a particular cluster. Anomalies can be detected using distance-based methods, density-based methods, or statistical methods.
+Verification of anomalies: Detected anomalies need to be verified by experts to ensure that they are true anomalies and not simply outliers or noise.
+Some common methods for anomaly detection using unsupervised learning include:
+
+Density-based clustering: Density-based clustering algorithms such as DBSCAN can be used to identify anomalies as data points that do not belong to any cluster or are in low-density regions of the data.
+Distance-based clustering: Distance-based clustering algorithms such as k-means can be used to identify anomalies as data points that are far away from the centroids of the clusters.
+Principal Component Analysis (PCA): PCA can be used to identify anomalies as data points that have a large reconstruction error or are far away from the reconstructed data.
+Autoencoder: An autoencoder is a type of neural network that can be used to identify anomalies as data points that have a high reconstruction error compared to the rest of the data.
+
+In summary, unsupervised learning can be used in anomaly detection by clustering the data and identifying anomalies as data points that are significantly different from the rest of the data. This approach can be particularly useful in situations where labeled examples of anomalies are not available or when anomalies are rare and difficult to identify manually.
+
+Q8. List down some commonly used supervised learning algorithms and unsupervised learning
+algorithms. 
+Here are some commonly used supervised learning algorithms and unsupervised learning algorithms:
+
+Supervised Learning Algorithms:
+Linear Regression
+Logistic Regression
+Decision Trees
+Random Forest
+Naive Bayes
+Support Vector Machines (SVM)
+k-Nearest Neighbors (k-NN)
+Artificial Neural Networks (ANN)
+
+Unsupervised Learning Algorithms:
+K-Means Clustering
+Hierarchical Clustering
+Density-Based Spatial Clustering of Applications with Noise (DBSCAN)
+Principal Component Analysis (PCA)
+Independent Component Analysis (ICA)
+Gaussian Mixture Models (GMM)
+Self-Organizing Maps (SOM)
+t-Distributed Stochastic Neighbor Embedding (t-SNE)
